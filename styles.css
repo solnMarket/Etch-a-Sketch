@@ -25,10 +25,13 @@ html,body{
     display: flex;
 }
 .section2{
+    display: flex;
     margin: 0%;
     padding: 0%;
     height: 500px;
     width: 500px;
-    
+    flex-wrap: wrap;
 }
-
+.effect:hover{
+    background-color: black;
+}
